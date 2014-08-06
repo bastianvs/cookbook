@@ -1,4 +1,4 @@
-SSH = 'ssh -A -i ~git/bitfield/bitfield.pem -l vagrant'
+SSH = 'ssh -A -i ~git/bastianvs/bastianvs.pem -l vagrant'
 
 desc "Run puppet on ENV['CLIENT']"
 task :apply do
